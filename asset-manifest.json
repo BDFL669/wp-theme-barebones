@@ -1,0 +1,19 @@
+{
+  "files": {
+    "static/js/1.chunk.js": "/wordpress/wp-content/themes/bare-bones/static/js/1.chunk.js",
+    "static/js/1.chunk.js.map": "/wordpress/wp-content/themes/bare-bones/static/js/1.chunk.js.map",
+    "main.css": "/wordpress/wp-content/themes/bare-bones/static/css/main.chunk.css",
+    "main.js": "/wordpress/wp-content/themes/bare-bones/static/js/main.chunk.js",
+    "main.css.map": "/wordpress/wp-content/themes/bare-bones/static/css/main.chunk.css.map",
+    "main.js.map": "/wordpress/wp-content/themes/bare-bones/static/js/main.chunk.js.map",
+    "runtime-main.js": "/wordpress/wp-content/themes/bare-bones/static/js/bundle.js",
+    "runtime-main.js.map": "/wordpress/wp-content/themes/bare-bones/static/js/bundle.js.map",
+    "index.php": "/wordpress/wp-content/themes/bare-bones/index.php"
+  },
+  "entrypoints": [
+    "static/js/bundle.js",
+    "static/js/1.chunk.js",
+    "static/css/main.chunk.css",
+    "static/js/main.chunk.js"
+  ]
+}
