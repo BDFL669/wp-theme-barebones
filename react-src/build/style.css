@@ -11,3 +11,20 @@ Text Domain: your-domain
 
 This theme, like WordPress, is licensed under the GPL.
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root {
+
+}
+
+html {
+
+}
+
+body {
+    border: 5px dashed red;
+}

@@ -6,6 +6,17 @@ import {
 import Footer from "./Footer";
 
 const RootLayout = () => {
+    const isLoggedIn = () => {
+        return localStorage.getItem('token');
+    };
+    const handleLogOut = () => {
+        localStorage.removeItem('token');
+        window.location.href = '/wordpress';
+        //window.location.reload();
+    };
+    const user = () => {
+        return localStorage.getItem('userName');
+    }
     return (
         <div className="root-layout">
             <header>
@@ -14,7 +25,12 @@ const RootLayout = () => {
                     <NavLink to="/wordpress">Home</NavLink>
                     <NavLink to="/wordpress/about">About</NavLink>
                     <NavLink to="/wordpress/blog">Blog</NavLink>
-                    <NavLink to="/wordpress/signin">Login</NavLink>
+                    {isLoggedIn() ? (
+                        <>
+                        <NavLink to={`/wordpress/dashboard/${user()}`}>Dashboard</NavLink>
+                        <NavLink to="/wordpress/" onClick={handleLogOut}>Logout</NavLink>
+                    </> 
+                    ) : <NavLink to="/wordpress/signin">Login</NavLink>}
                 </nav>
             </header>
             <main>

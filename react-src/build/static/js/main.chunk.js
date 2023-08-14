@@ -32,7 +32,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _templates_NotFound__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./templates/NotFound */ "./src/templates/NotFound.js");
 /* harmony import */ var _templates_Login__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./templates/Login */ "./src/templates/Login.js");
 /* harmony import */ var _templates_SinglePost__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./templates/SinglePost */ "./src/templates/SinglePost.js");
+/* harmony import */ var _templates_Dashboard__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./templates/Dashboard */ "./src/templates/Dashboard.js");
+/* harmony import */ var _partials_ProtectedRoutes__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./partials/ProtectedRoutes */ "./src/partials/ProtectedRoutes.js");
 var _jsxFileName = "C:\\Users\\admi\\Documents\\Xampp\\htdocs\\wordpress\\wp-content\\themes\\bare-bones\\react-src\\src\\App.js";
+
+
 
 
 
@@ -49,14 +53,14 @@ const router = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["createBrows
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 21,
       columnNumber: 43
     }
   }),
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
+    lineNumber: 21,
     columnNumber: 9
   }
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
@@ -66,40 +70,8 @@ const router = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["createBrows
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 49
-    }
-  }),
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 20,
-    columnNumber: 9
-  }
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-  path: "/wordpress/about",
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_templates_About__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 49
-    }
-  }),
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 21,
-    columnNumber: 9
-  }
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-  path: "/wordpress/blog",
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_templates_Blog__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 48
+      columnNumber: 49
     }
   }),
   __self: undefined,
@@ -109,13 +81,13 @@ const router = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["createBrows
     columnNumber: 9
   }
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-  path: "/wordpress/signin",
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_templates_Login__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  path: "/wordpress/about",
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_templates_About__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 50
+      columnNumber: 49
     }
   }),
   __self: undefined,
@@ -125,13 +97,13 @@ const router = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["createBrows
     columnNumber: 9
   }
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-  path: "/wordpress/post/:slug",
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_templates_SinglePost__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  path: "/wordpress/blog",
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_templates_Blog__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
-      columnNumber: 54
+      columnNumber: 48
     }
   }),
   __self: undefined,
@@ -141,19 +113,82 @@ const router = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["createBrows
     columnNumber: 9
   }
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-  path: "/wordpress/*",
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_templates_NotFound__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  path: "/wordpress/signin",
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_templates_Login__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
-      columnNumber: 45
+      columnNumber: 50
     }
   }),
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 25,
+    columnNumber: 9
+  }
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_partials_ProtectedRoutes__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 25
+    }
+  }),
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26,
+    columnNumber: 9
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+  path: "/wordpress/dashboard/:slug",
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_templates_Dashboard__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 59
+    }
+  }),
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27,
+    columnNumber: 9
+  }
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+  path: "/wordpress/:slug",
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_templates_SinglePost__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 49
+    }
+  }),
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29,
+    columnNumber: 9
+  }
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+  path: "/wordpress/*",
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_templates_NotFound__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 45
+    }
+  }),
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30,
     columnNumber: 9
   }
 }))));
@@ -163,7 +198,7 @@ function App() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 36,
       columnNumber: 9
     }
   });
@@ -521,14 +556,12 @@ const HomePost = _ref => {
   let linkPrefix = item.type === 'page' ? '/page/' : '/post/';
   let theContent = '';
   switch (context.route) {
-    case '/': //if homepage,
-    case '/search/:term': //or if search
+    case '/':
+    case '/search/:term':
     case '/category/:catid':
-      //or if search
-      theContent = item.excerpt.rendered; //show excerpt only
+      theContent = item.excerpt.rendered; // show excerpt only
       break;
     default:
-      //for single, pages - show entire content
       theContent = item.excerpt.rendered;
       break;
   }
@@ -538,31 +571,31 @@ const HomePost = _ref => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 9
+      lineNumber: 27,
+      columnNumber: 5
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 13
+      lineNumber: 28,
+      columnNumber: 7
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: '/wordpress' + linkPrefix + item.slug,
+    to: '/wordpress/' + item.slug,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 17
+      lineNumber: 28,
+      columnNumber: 11
     }
   }, item.title.rendered)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PostMeta__WEBPACK_IMPORTED_MODULE_3__["default"], {
     index: index,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 13
+      lineNumber: 29,
+      columnNumber: 7
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "post-content",
@@ -572,8 +605,8 @@ const HomePost = _ref => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 13
+      lineNumber: 30,
+      columnNumber: 7
     }
   }));
 };
@@ -842,7 +875,7 @@ const PostMeta = _ref => {
         const response = await axios__WEBPACK_IMPORTED_MODULE_4__["default"].get(`http://localhost/wordpress/wp-json/wp/v2/users?user=${authorID}`);
         const data = response.data;
         if (Array.isArray(data) && data.length > 0) {
-          setAuthor(data[0].name); // Update to access the author's name property
+          setAuthor(data[0].name.charAt(0).toUpperCase() + data[0].name.slice(1).toLowerCase()); // Update to access the author's name property
         }
       } catch (error) {
         console.error(error);
@@ -886,11 +919,49 @@ const PostMeta = _ref => {
         lineNumber: 45,
         columnNumber: 20
       }
-    }, item.date), ", Written by ", author, ", ", catLink);
+    }, item.date), ", Written by ", author);
   }
   return theMeta;
 };
 /* harmony default export */ __webpack_exports__["default"] = (Object(_context_WithConsumer__WEBPACK_IMPORTED_MODULE_3__["default"])(PostMeta));
+
+/***/ }),
+
+/***/ "./src/partials/ProtectedRoutes.js":
+/*!*****************************************!*\
+  !*** ./src/partials/ProtectedRoutes.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
+var _jsxFileName = "C:\\Users\\admi\\Documents\\Xampp\\htdocs\\wordpress\\wp-content\\themes\\bare-bones\\react-src\\src\\partials\\ProtectedRoutes.js";
+
+
+const PrivateRoutes = () => {
+  const auth = !!localStorage.getItem('token');
+  return auth ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Outlet"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 12
+    }
+  }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Navigate"], {
+    to: "/wordpress/signin",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 24
+    }
+  });
+};
+/* harmony default export */ __webpack_exports__["default"] = (PrivateRoutes);
 
 /***/ }),
 
@@ -912,26 +983,38 @@ var _jsxFileName = "C:\\Users\\admi\\Documents\\Xampp\\htdocs\\wordpress\\wp-con
 
 
 const RootLayout = () => {
+  const isLoggedIn = () => {
+    return localStorage.getItem('token');
+  };
+  const handleLogOut = () => {
+    localStorage.removeItem('token');
+    window.location.href = '/wordpress';
+    //window.location.reload();
+  };
+
+  const user = () => {
+    return localStorage.getItem('userName');
+  };
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "root-layout",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 21,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 22,
       columnNumber: 13
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 23,
       columnNumber: 17
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -939,7 +1022,7 @@ const RootLayout = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 24,
       columnNumber: 21
     }
   }, "lowacase"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
@@ -947,7 +1030,7 @@ const RootLayout = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 25,
       columnNumber: 21
     }
   }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
@@ -955,7 +1038,7 @@ const RootLayout = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 26,
       columnNumber: 21
     }
   }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
@@ -963,36 +1046,53 @@ const RootLayout = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 27,
       columnNumber: 21
     }
-  }, "Blog"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+  }, "Blog"), isLoggedIn() ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    to: `/wordpress/dashboard/${user()}`,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 25
+    }
+  }, "Dashboard"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    to: "/wordpress/",
+    onClick: handleLogOut,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 25
+    }
+  }, "Logout")) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     to: "/wordpress/signin",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 21
+      lineNumber: 33,
+      columnNumber: 25
     }
   }, "Login"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 36,
       columnNumber: 13
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Outlet"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 37,
       columnNumber: 17
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 38,
       columnNumber: 17
     }
   })));
@@ -1172,9 +1272,9 @@ const ThePost = _ref => {
   switch (context.route) {
     case '/': //if homepage,
     case '/search/:term': //or if search
-    case '/category/:catid':
-      //or if search
-      theContent = item.excerpt.rendered; //show excerpt only
+    case '/category/:catid': //or if search
+    case '/post/:slug':
+      theContent = item.content.rendered; //show excerpt only
       break;
     default:
       //for single, pages - show entire content
@@ -1187,22 +1287,22 @@ const ThePost = _ref => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 13
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: '/wordpress' + linkPrefix + item.slug,
+    to: '/wordpress/' + item.slug,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 17
     }
   }, item.title.rendered)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PostMeta__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -1210,7 +1310,7 @@ const ThePost = _ref => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 30,
       columnNumber: 13
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1221,7 +1321,7 @@ const ThePost = _ref => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 13
     }
   }));
@@ -1529,6 +1629,41 @@ const Blog = props => {
 
 /***/ }),
 
+/***/ "./src/templates/Dashboard.js":
+/*!************************************!*\
+  !*** ./src/templates/Dashboard.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\admi\\Documents\\Xampp\\htdocs\\wordpress\\wp-content\\themes\\bare-bones\\react-src\\src\\templates\\Dashboard.js";
+
+const Dashboard = () => {
+  const user = localStorage.getItem('userName');
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 13
+    }
+  }, "Welcome ", user));
+};
+/* harmony default export */ __webpack_exports__["default"] = (Dashboard);
+
+/***/ }),
+
 /***/ "./src/templates/Home.js":
 /*!*******************************!*\
   !*** ./src/templates/Home.js ***!
@@ -1613,24 +1748,182 @@ const Home = props => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
+/* harmony import */ var _partials_Loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../partials/Loader */ "./src/partials/Loader.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 var _jsxFileName = "C:\\Users\\admi\\Documents\\Xampp\\htdocs\\wordpress\\wp-content\\themes\\bare-bones\\react-src\\src\\templates\\Login.js";
 
+//import Navbar from './Navbar';
+
+
+
+//import clientConfig from '../client-config';
+
 const Login = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 9
+  const [username, setUsername] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
+  const [password, setPassword] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
+  const [userNiceName, setUserNiceName] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
+  const [loggedIn, setLoggedIn] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
+  const [loading, setLoading] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
+  const [error, setError] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
+  const siteUrl = 'http://localhost/wordpress';
+  const createMarkup = data => ({
+    __html: data
+  });
+  const onFormSubmit = event => {
+    // event.preventDefault();
+
+    const loginData = {
+      username: username,
+      password: password
+    };
+    setLoading(true);
+    axios__WEBPACK_IMPORTED_MODULE_3__["default"].post(`${siteUrl}/wp-json/jwt-auth/v1/token`, loginData).then(res => {
+      if (undefined === res.data.token) {
+        setError(res.data.message);
+        setLoading(false);
+        return;
+      }
+      const {
+        token,
+        user_nicename,
+        user_email
+      } = res.data;
+      localStorage.setItem('token', token);
+      localStorage.setItem('userName', user_nicename);
+      setLoading(false);
+      setLoggedIn(true);
+      setUserNiceName(user_nicename);
+    }).catch(err => {
+      setError(err.response.data.message);
+      setLoading(false);
+    });
+  };
+  const handleOnChange = event => {
+    const {
+      name,
+      value
+    } = event.target;
+    if (name === 'username') setUsername(value);else if (name === 'password') setPassword(value);
+  };
+  const user = userNiceName ? userNiceName : localStorage.getItem('userName');
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    if (loggedIn || localStorage.getItem('token')) {
+      setLoggedIn(true);
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 13
-    }
-  }, "Login"));
+  }, [loggedIn]);
+  if (loggedIn) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Navigate"], {
+      to: `/wordpress/dashboard/${user}`,
+      replace: true,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69,
+        columnNumber: 12
+      }
+    });
+  } else {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "jumbotron",
+      style: {
+        height: '100vh'
+      },
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 73,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 74,
+        columnNumber: 11
+      }
+    }, "Login"), error && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "alert alert-danger",
+      dangerouslySetInnerHTML: createMarkup(error),
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 76,
+        columnNumber: 13
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+      onSubmit: onFormSubmit,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 81,
+        columnNumber: 11
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+      className: "form-group",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 82,
+        columnNumber: 13
+      }
+    }, "Username:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      type: "text",
+      className: "form-control",
+      name: "username",
+      value: username,
+      onChange: handleOnChange,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 84,
+        columnNumber: 15
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 92,
+        columnNumber: 13
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+      className: "form-group",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 93,
+        columnNumber: 13
+      }
+    }, "Password:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      type: "password",
+      className: "form-control",
+      name: "password",
+      value: password,
+      onChange: handleOnChange,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 95,
+        columnNumber: 15
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 103,
+        columnNumber: 13
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      className: "btn btn-primary mb-3",
+      type: "submit",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 104,
+        columnNumber: 13
+      }
+    }, "Login"))));
+  }
 };
 /* harmony default export */ __webpack_exports__["default"] = (Login);
 
@@ -1687,7 +1980,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _partials_Loader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../partials/Loader */ "./src/partials/Loader.js");
 /* harmony import */ var react_moment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-moment */ "./node_modules/react-moment/dist/index.js");
 /* harmony import */ var react_moment__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_moment__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _partials_ThePost__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../partials/ThePost */ "./src/partials/ThePost.js");
 var _jsxFileName = "C:\\Users\\admi\\Documents\\Xampp\\htdocs\\wordpress\\wp-content\\themes\\bare-bones\\react-src\\src\\templates\\SinglePost.js";
+
 
 
 
@@ -1737,7 +2032,7 @@ const SinglePost = _ref => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48,
+        lineNumber: 49,
         columnNumber: 12
       }
     });
@@ -1753,14 +2048,14 @@ const SinglePost = _ref => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 56,
       columnNumber: 5
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 57,
       columnNumber: 7
     }
   }, title.rendered), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1768,7 +2063,7 @@ const SinglePost = _ref => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 58,
       columnNumber: 7
     }
   }, "Published: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_moment__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -1776,7 +2071,7 @@ const SinglePost = _ref => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 59,
       columnNumber: 20
     }
   }, date), ", Written by ", authorName), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1787,7 +2082,7 @@ const SinglePost = _ref => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 63,
       columnNumber: 7
     }
   }));

@@ -19,7 +19,7 @@ const PostMeta = ({ index, context }) => {
         );
         const data = response.data;
         if (Array.isArray(data) && data.length > 0) {
-          setAuthor(data[0].name); // Update to access the author's name property
+          setAuthor(data[0].name.charAt(0).toUpperCase() + data[0].name.slice(1).toLowerCase()); // Update to access the author's name property
         }
       } catch (error) {
         console.error(error);
@@ -43,7 +43,7 @@ const PostMeta = ({ index, context }) => {
     theMeta = (
       <div className="post-meta">
         Published: <Moment format="MM/DD/YYYY">{item.date}</Moment>,
-        Written by {author}, {catLink}
+        Written by {author}
       </div>
     );
   }

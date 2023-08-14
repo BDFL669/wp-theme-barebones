@@ -4,6 +4,7 @@ import WithConsumer from "../context/WithConsumer";
 import axios from "axios";
 import Loader from "../partials/Loader";
 import Moment from "react-moment";
+import ThePost from "../partials/ThePost";
 
 const SinglePost = ({ index, context }) => {
   const { slug } = useParams();
